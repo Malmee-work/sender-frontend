@@ -1,0 +1,44 @@
+.parcel {
+  padding-top: 4rem;
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+.main-title {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.selected-item {
+  display: flex;
+  justify-content: space-between;
+
+  .selected-single {
+    width: 20%;
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.add-parcel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
